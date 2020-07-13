@@ -1,0 +1,15 @@
+.color-indicator-container {
+  .color-indicator {
+    display: inline-block;
+    padding: 18px 24px;
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+    min-width: 65px;
+    text-align: center;
+
+    &__text {
+      border-bottom: 1px solid white;
+    }
+  }
+}

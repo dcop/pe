@@ -1,0 +1,17 @@
+.cell-number-chooser {
+  display: flex;
+
+  &__cell-number {
+    padding: 0 16px;
+    width: 100px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 5px;
+  }
+  &__separator {
+    display: flex;
+    margin: 0 16px;
+    align-items: center;
+  }
+}
